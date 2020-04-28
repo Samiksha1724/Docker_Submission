@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+        web_server:
+                image: samiksha1724/web_server
+                restart: always
+                volumes:
+                        - web_external_storage:/var/www/html
